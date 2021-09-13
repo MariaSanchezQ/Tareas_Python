@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    font-family: Calibri;
+    font-color: black;
+}
+
+#contenedor {
+    width: 81%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+#contenido {
+    width: 720px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    text-align: justify;
+    line-height: 23px;
+}
+
+aside {
+    width: 280px;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+aside table {
+    text-align: justify;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 3px;
+}
+
+aside td {
+    padding: 6px;
+}
+
+aside h3 {
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: currentColor;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    color: #175A75;
+}
+
+aside p {
+    margin-top: 10px;
+    text-align: justify;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    line-height: 23px;
+}
+
+aside h2 {
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: currentColor;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    color: #175A75;
+    font-size: 20px;
+}
+
+aside li {
+    font-size: 15px;
+    text-align: left;
+}
+
+aside audio {
+    padding: auto;
+    width: 100%;
+}
+
+h1 {
+    color: red;
+}
+
+.boton {
+    background-color: cyan;
+    color: black;
+    font-family: Calibir;
+    width: auto;
+    height: auto;
+    padding: 2px 2px 2px 2px;
+}

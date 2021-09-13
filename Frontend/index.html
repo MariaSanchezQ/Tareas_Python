@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Ludwig van Beethoven" content="width=device-width">
+    <title>Tarea Frontend</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <h1><strong>Ludwig van Beethoven</strong></h1>
+        </header>
+
+        <section id="contenido">
+            <p>(Bonn, actualmente Alemania, 1770 - Viena, 1827) <em>Compositor alemán</em>. Nacido en el seno de una familia de origen flamenco, su padre, ante las evidentes cualidades para la música que demostraba el pequeño Ludwig, intentó hacer de él
+                un segundo Mozart, aunque con escaso éxito.</p>
+            <br>
+            <center><img src="https://www.biografiasyvidas.com/biografia/b/fotos/beethoven_2.jpg" style="height: 200px" style="width: 80px" style="border: 1px black"></center>
+            <br>
+            <p>La verdadera vocación musical de Beethoven no comenzó en realidad hasta 1779, cuando entró en contacto con el organista Christian Gottlob Neefe, quien se convirtió en su maestro. Él fue, por ejemplo, quien le introdujo en el estudio de Johann
+                Sebastian Bach, músico al que Beethoven siempre profesaría una profunda devoción.<br><br> Miembro de la orquesta de la corte de Bonn desde 1783, en 1787 Ludwig van Beethoven realizó un primer viaje a Viena con el propósito de recibir clases
+                de Mozart. Sin embargo, la enfermedad y el posterior deceso de su madre le obligaron a regresar a su ciudad natal pocas semanas después de su llegada.<br><br> En 1792 Beethoven viajó de nuevo a la capital austriaca para trabajar con Haydn
+                y Antonio Salieri, y se dio a conocer como compositor y pianista en un concierto que tuvo lugar en 1795 con gran éxito. Su carrera como intérprete quedó bruscamente interrumpida a consecuencia de la sordera que comenzó a afectarle a partir
+                de 1796 y que desde 1815 le privó por completo de la facultad auditiva.<br><br> Los últimos años de la vida de Beethoven estuvieron marcados también por la soledad y una progresiva introspección, pese a lo cual prosiguió su labor compositiva,
+                e incluso fue la época en que creó sus obras más impresionantes y avanzadas.</p><br><br>
+
+            <nav class="botones">
+                <h3>Conoce más acerca de Beethoven</h3>
+                <input type="button" onclick="javascript:btn_1();" value="Curiosidades" / class="boton">
+                <input type="button" onclick="javascript:btn_2();" value="Inspiración" class="boton" />
+                <input type="button" onclick="javascript: btn_3();" value="Importancia" class="boton">
+            </nav>
+
+        </section>
+    </div>
+</body>
+
+
+<aside>
+    <table border="1px">
+        <tr>
+            <td>
+                <center>
+                    <h3>Ludwig van Beethoven</h3>
+                </center>
+                <center><img src="Imagenes/Imagen1.png" style="height: 200px" style="width: 80px" style="border: 1px black"></center><br>
+                <center><audio width="100px" controls>
+            <source src="Audios/Audio1.mp3" type="audio/mpeg">
+          </audio>
+                    <p><em>Ludwig van Beethoven</em>​ fue un compositor, director de orquesta y virtuoso pianista alemán. Su legado musical abarca, cronológicamente, desde el Clasicismo hasta los inicios del Romanticismo <b><a href="https://es.wikipedia.org/wiki/Ludwig_van_Beethoven">ver más...</a></b></center>
+            </td>
+        </tr>
+    </table><br>
+
+    <h2>Obras de Ludwig van Beethoven</h2>
+    <ul>
+        <li>Sinfonía nº 3 en mi bemol mayor, op. 55.</li>
+        <li>Sinfonía nº 5 en do menor, op. 67.</li>
+        <li>Sinfonía nº 6 en fa mayor, op. 68, “Pastoral".</li>
+        <li>Sinfonía nº 9 re menor, op. 125, “Coral”.</li>
+        <li>Concierto para piano nº 5 en mi bemol mayor, op. 73.</li>
+        <li>Sonata para piano n.º 14 en do sostenido menor "Quasi una fantasia" op. 27, n.º 2.</li>
+        <li>Cuarteto de cuerdas “La gran fuga” op. 133.</li>
+        <li>Fantasía coral para piano, orquesta y coro en do menor op. 80.</li>
+    </ul>
+</aside>
+
+<script>
+    function btn_1() {
+        alert("Para conocer curiosidades sobre la vida de Beethoven:")
+        location.href = "https://www.medigraphic.com/pdfs/abril/abr-2015/abr15257i.pdf"
+    }
+
+    function btn_2() {
+        alert("La mujer inspiración de Beethoven, conoce su nombre...")
+        location.href = "https://www.abc.es/cultura/musica/abci-misteriosa-mujer-enamoro-beethoven-inspiro-sonata-claro-luna-202005291012_noticia.html"
+    }
+
+    function btn_3() {
+        alert("Para conocer sobre la importancia de las sonatas de Beethoven en la música, visita:")
+        location.href = "https://repository.eafit.edu.co/bitstream/handle/10784/11713/CristianJob_DelrealBarreto_2017.pdf?sequence=3&isAllowed=y"
+    }
+</script>
+
+</html>
